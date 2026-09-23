@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+
+# Environment
+.env
+backend/.env
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Storage (local dev only)
+backend/storage_local/*
+!backend/storage_local/.gitkeep
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Database
+*.sqlite3
